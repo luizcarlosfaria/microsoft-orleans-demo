@@ -1,8 +1,8 @@
-# gaGO.io.BotPlatform
+# Microsoft Orleans Demo
 
-Microsoft Orleans Based Chatbot Platform
+Features
 
-* Receive
-* Process
-* Analyse
-* Respond
+* Executando 100% via containers docker
+* Persistência de Grains no MongoDB
+* Utilizando Consul para Service/Silo Discovery (clustering)
+
