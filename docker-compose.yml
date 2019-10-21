@@ -1,0 +1,54 @@
+version: '3.4'
+
+services:
+  gago.io.botplatform.silo:
+    image: ${DOCKER_REGISTRY-}gagoiobotplatformsilo
+    build:
+      context: .
+      dockerfile: gaGO.io.BotPlatform.Silo/Dockerfile
+    ports:
+      - 8080:8080
+      - 11111:11111
+      - 30000:30000
+    networks:
+      - orleans
+
+
+  gago.io.botplatform.clientconsole:
+    image: ${DOCKER_REGISTRY-}gagoiobotplatformclientconsole
+    build:
+      context: .
+      dockerfile: gaGO.io.BotPlatform.ClientConsole/Dockerfile
+    networks:
+      - orleans
+
+  consul:
+    image: consul:1.6
+    ports:
+      - 8500:8500
+    networks:
+      - orleans
+
+
+  mongo:
+    image: mongo:4.2
+    command: --serviceExecutor adaptive
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: orleans
+      MONGO_INITDB_ROOT_PASSWORD: EdcNYWE6U7l6tPWukNMfW
+    networks:
+      - orleans
+    ports:
+      - 27017:27017
+
+  redis:
+    image: redis:5
+    ports:
+      - 6379:6379
+    networks:
+      - orleans
+
+
+networks:
+  orleans: {}
+
