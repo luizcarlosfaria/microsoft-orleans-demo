@@ -6,6 +6,9 @@ WORKDIR /src
 COPY ["gaGO.io.BotPlatform.ClientConsole/gaGO.io.BotPlatform.ClientConsole.csproj", "gaGO.io.BotPlatform.ClientConsole/"]
 COPY ["gaGO.io.BotPlatform.Contracts/gaGO.io.BotPlatform.Contracts.csproj", "gaGO.io.BotPlatform.Contracts/"]
 COPY ["gaGO.io.BotPlatform.Connect/gaGO.io.BotPlatform.Connect.csproj", "gaGO.io.BotPlatform.Connect/"]
+COPY ["global.json", "./"]
+COPY ["NuGet.Config", "./"]
+COPY ["Directory.Build.props", "./"]
 RUN dotnet restore "gaGO.io.BotPlatform.ClientConsole/gaGO.io.BotPlatform.ClientConsole.csproj"
 COPY . .
 WORKDIR "/src/gaGO.io.BotPlatform.ClientConsole"
