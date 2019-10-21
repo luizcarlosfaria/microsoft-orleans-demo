@@ -18,8 +18,7 @@ namespace gaGO.io.BotPlatform.ClientConsole
 
             try
             {
-                // Configure a client and connect to the service.
-                var client = gaGO.io.BotPlatform.ClientConnect.CreateClient()
+                using var client = gaGO.io.BotPlatform.ClientConnect.CreateClient()
                     .ConfigureLogging(logging => logging.AddConsole())
                     .Build();
 
