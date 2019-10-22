@@ -27,6 +27,9 @@ namespace gaGO.io.BotPlatform.ClientConsole
 
                 var grain = client.GetGrain<ISystemInfoGrain>(0);
 
+                var grainWData = client.GetGrain<IGrainWithData>(1);
+
+                await grainWData.SetName("luiz");
 
                 for (var i = 0; i < 10; i++)
                 {
@@ -36,7 +39,9 @@ namespace gaGO.io.BotPlatform.ClientConsole
                     System.Threading.Thread.Sleep(TimeSpan.FromSeconds(1));
                 }
 
-                var date = await grain.ThrowException();
+                var name = await grainWData.GetName();
+
+                //var date = await grain.ThrowException();
 
                 return 0;
             }
