@@ -11,8 +11,8 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Build Console
-      run: docker build . --file ./gaGO.io.BotPlatform.ClientConsole/Dockerfile --tag my-image-name:$(date +%s)
+      run: docker build . --file ./gaGO.io.MicrosoftOrleansDemo.ClientConsole/Dockerfile --tag my-image-name:$(date +%s)
 
     - uses: actions/checkout@v1
     - name: Build Silo
-      run: docker build . --file ./gaGO.io.BotPlatform.Silo/Dockerfile --tag my-image-name:$(date +%s)
+      run: docker build . --file ./gaGO.io.MicrosoftOrleansDemo.Silo/Dockerfile --tag my-image-name:$(date +%s)
