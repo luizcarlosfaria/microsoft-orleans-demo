@@ -1,6 +1,4 @@
-# Microsoft Orleans 3.0 Demo
-
-## .NET Core 3 | Microsoft Orleans 3
+# Microsoft Orleans 3.0 on .NET Core 3 - Seed project
 
 https://devblogs.microsoft.com/dotnet/orleans-3-0/
 
