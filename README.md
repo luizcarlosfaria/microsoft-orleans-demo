@@ -30,3 +30,20 @@ Dashboard Configurado e Integrado à Solução
 ![alt text][logo]
 
 [logo]: ./assets/OrleansDashboard.png "Logo Title Text 2"
+
+
+## Requisitos
+
+* Visual Studio 2019
+* .NET Core 3.0 SDK
+* Docker e Docker Compose
+
+## Get Started
+
+Faça o clone do projeto.
+
+Abra a solução ./gaGO.io.MicrosoftOrleansDemo.sln.
+
+Sete o projeto docker-compose como startup project.
+
+Pressione F5.
