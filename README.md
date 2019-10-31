@@ -7,7 +7,7 @@
 Tanto o Silo quando o Cliente são aplicações .NET Core 3.0 rodando em containers docker no Linux.
 
 ### Persistência de Grains no MongoDB
-
+1
 Pré-configurado com persistência de Grains direto no MongoDB 4.2.
 
 ### Service/Silo Discovery (clustering) com Consul
@@ -25,3 +25,8 @@ O stack é todo implantado com Docker Compose, integrado ao Visual Studio.
 
 ### Dashboard integrado
 
+Dashboard Configurado e Integrado à Solução
+
+![alt text][logo]
+
+[logo]: ./assets/OrleansDashboard.png "Logo Title Text 2"

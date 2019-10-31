@@ -8,7 +8,6 @@ namespace gaGO.io.MicrosoftOrleansDemo
 {
     public static class SharedConnect
     {
-        private const string CONSUL_URI = "http://consul:8500";
         private const string CONSUL_KvRootFolder = "gaGO.io.MicrosoftOrleansDemo";
 
         private const int COLLECTION_AGE = 3;
@@ -18,15 +17,17 @@ namespace gaGO.io.MicrosoftOrleansDemo
         private const string CLUSTER_ID = "production";
         private const string SERVICE_ID = "gaGO.io.MicrosoftOrleansDemo";
 
+        private static Uri GetConsulUrl() => new Uri(Environment.GetEnvironmentVariable("CONSUL_URI") ?? throw new InvalidOperationException("CONSUL_URI is not set"));
+
         public static void ConfigureConsul(ConsulClusteringSiloOptions options)
         {
-            options.Address = new Uri(CONSUL_URI);
+            options.Address = GetConsulUrl();
             options.KvRootFolder = CONSUL_KvRootFolder;
         }
 
         public static void ConfigureConsul(ConsulClusteringClientOptions options)
         {
-            options.Address = new Uri(CONSUL_URI);
+            options.Address = GetConsulUrl();
             options.KvRootFolder = CONSUL_KvRootFolder;
         }
 

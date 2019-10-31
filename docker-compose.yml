@@ -6,10 +6,14 @@ services:
     build:
       context: .
       dockerfile: gaGO.io.MicrosoftOrleansDemo.Silo/Dockerfile
+    environment:
+      - MONGODB_CON=mongodb://orleans:EdcNYWE6U7l6tPWukNMfW@mongo:27017/Orleans?authSource=admin
+      - MONGODB_DATABASE=Orleans
+      - CONSUL_URI=http://consul:8500
     ports:
       - 8080:8080
-      - 11111:11111
-      - 30000:30000
+      # - 11111:11111
+      # - 30000:30000
     networks:
       - orleans
 
@@ -19,13 +23,15 @@ services:
     build:
       context: .
       dockerfile: gaGO.io.MicrosoftOrleansDemo.ClientConsole/Dockerfile
+    environment:
+      - CONSUL_URI=http://consul:8500
     networks:
       - orleans
 
   consul:
     image: consul:1.6
-    ports:
-      - 8500:8500
+    #ports:
+    #  - 8500:8500
     networks:
       - orleans
 
@@ -38,8 +44,8 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: EdcNYWE6U7l6tPWukNMfW
     networks:
       - orleans
-    ports:
-      - 27017:27017
+    #ports:
+    #  - 27017:27017
 
 
 networks:

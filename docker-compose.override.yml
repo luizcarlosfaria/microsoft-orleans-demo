@@ -1,1 +1,14 @@
 version: '3.4'
+
+
+services:
+  gago.io.microsoftorleansdemo.silo:
+    environment:
+      - MONGODB_CON=mongodb://orleans:EdcNYWE6U7l6tPWukNMfW@mongo:27017/Orleans?authSource=admin
+      - MONGODB_DATABASE=Orleans
+      - CONSUL_URI=http://consul:8500
+
+
+  gago.io.microsoftorleansdemo.clientconsole:
+    environment:
+      - CONSUL_URI=http://consul:8500
