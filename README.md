@@ -21,3 +21,7 @@ Clone, Play & Debug! Tudo integrado ao Visual Studio, pronto para debug.
 ### Todos os serviços são hospedados e gerenciados com Docker Compose
 
 O stack é todo implantado com Docker Compose, integrado ao Visual Studio.
+
+
+### Dashboard integrado
+
