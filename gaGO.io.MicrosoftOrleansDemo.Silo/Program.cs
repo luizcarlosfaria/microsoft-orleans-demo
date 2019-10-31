@@ -8,9 +8,9 @@ using Orleans.Hosting;
 using System.Security.Cryptography.X509Certificates;
 using System.Net;
 using Orleans.Configuration;
-using gaGO.io.BotPlatform.Internals;
+using gaGO.io.MicrosoftOrleansDemo.Internals;
 
-namespace gaGO.io.BotPlatform.Silo
+namespace gaGO.io.MicrosoftOrleansDemo.Silo
 {
     public class Program
     {

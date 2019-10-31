@@ -5,7 +5,7 @@ using Orleans;
 using Orleans.Configuration;
 using Orleans.Hosting;
 
-namespace gaGO.io.BotPlatform
+namespace gaGO.io.MicrosoftOrleansDemo
 {
     public static class ClientConnect
     {

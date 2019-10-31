@@ -1,11 +1,11 @@
 version: '3.4'
 
 services:
-  gago.io.botplatform.silo:
+  gago.io.microsoftorleansdemo.silo:
     image: ${DOCKER_REGISTRY-}gagoiobotplatformsilo
     build:
       context: .
-      dockerfile: gaGO.io.BotPlatform.Silo/Dockerfile
+      dockerfile: gaGO.io.MicrosoftOrleansDemo.Silo/Dockerfile
     ports:
       - 8080:8080
       - 11111:11111
@@ -14,11 +14,11 @@ services:
       - orleans
 
 
-  gago.io.botplatform.clientconsole:
+  gago.io.microsoftorleansdemo.clientconsole:
     image: ${DOCKER_REGISTRY-}gagoiobotplatformclientconsole
     build:
       context: .
-      dockerfile: gaGO.io.BotPlatform.ClientConsole/Dockerfile
+      dockerfile: gaGO.io.MicrosoftOrleansDemo.ClientConsole/Dockerfile
     networks:
       - orleans
 

@@ -4,10 +4,10 @@ using System;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Orleans.Configuration;
-using gaGO.io.BotPlatform.Internals;
+using gaGO.io.MicrosoftOrleansDemo.Internals;
 using Orleans.Hosting;
 
-namespace gaGO.io.BotPlatform.ClientConsole
+namespace gaGO.io.MicrosoftOrleansDemo.ClientConsole
 {
     class Program
     {
@@ -18,7 +18,7 @@ namespace gaGO.io.BotPlatform.ClientConsole
 
             try
             {
-                using var client = gaGO.io.BotPlatform.ClientConnect.CreateClient()
+                using var client = gaGO.io.MicrosoftOrleansDemo.ClientConnect.CreateClient()
                     .ConfigureLogging(logging => logging.AddConsole())
                     .Build();
 

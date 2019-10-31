@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29319.158
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gaGO.io.BotPlatform.Silo", "gaGO.io.BotPlatform.Silo\gaGO.io.BotPlatform.Silo.csproj", "{FF50206A-2C31-4B10-94E7-A5DD966CCACF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gaGO.io.MicrosoftOrleansDemo.Silo", "gaGO.io.MicrosoftOrleansDemo.Silo\gaGO.io.MicrosoftOrleansDemo.Silo.csproj", "{FF50206A-2C31-4B10-94E7-A5DD966CCACF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Orleans", "Orleans", "{40FF131A-A435-40FC-9C46-4E51C91483C9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gaGO.io.BotPlatform.Grains", "gaGO.io.BotPlatform.Grains\gaGO.io.BotPlatform.Grains.csproj", "{D9BA1F65-BD63-462F-BCE3-4AE1D3DA0BDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gaGO.io.MicrosoftOrleansDemo.Grains", "gaGO.io.MicrosoftOrleansDemo.Grains\gaGO.io.MicrosoftOrleansDemo.Grains.csproj", "{D9BA1F65-BD63-462F-BCE3-4AE1D3DA0BDE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gaGO.io.BotPlatform.Contracts", "gaGO.io.BotPlatform.Contracts\gaGO.io.BotPlatform.Contracts.csproj", "{16142130-2DBA-4A89-8212-4037EEC335B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gaGO.io.MicrosoftOrleansDemo.Contracts", "gaGO.io.MicrosoftOrleansDemo.Contracts\gaGO.io.MicrosoftOrleansDemo.Contracts.csproj", "{16142130-2DBA-4A89-8212-4037EEC335B7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A65882BF-1CF4-47A2-AD08-2709EC3636B3}"
 	ProjectSection(SolutionItems) = preProject
@@ -23,9 +23,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosts", "Hosts", "{BC1B66FC
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{426B401D-02BC-4D63-9454-4B19F6C0C80F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gaGO.io.BotPlatform.ClientConsole", "gaGO.io.BotPlatform.ClientConsole\gaGO.io.BotPlatform.ClientConsole.csproj", "{016CBA2F-D9EB-4852-9899-5D556F1D2571}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gaGO.io.MicrosoftOrleansDemo.ClientConsole", "gaGO.io.MicrosoftOrleansDemo.ClientConsole\gaGO.io.MicrosoftOrleansDemo.ClientConsole.csproj", "{016CBA2F-D9EB-4852-9899-5D556F1D2571}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gaGO.io.BotPlatform.Connect", "gaGO.io.BotPlatform.Connect\gaGO.io.BotPlatform.Connect.csproj", "{79C4E7E6-C0F8-4D56-B586-D2BF2267ACA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gaGO.io.MicrosoftOrleansDemo.Connect", "gaGO.io.MicrosoftOrleansDemo.Connect\gaGO.io.MicrosoftOrleansDemo.Connect.csproj", "{79C4E7E6-C0F8-4D56-B586-D2BF2267ACA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

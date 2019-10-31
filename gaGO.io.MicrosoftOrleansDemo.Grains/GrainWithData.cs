@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
-using gaGO.io.BotPlatform.State;
+using gaGO.io.MicrosoftOrleansDemo.State;
 using Orleans;
 
-namespace gaGO.io.BotPlatform
+namespace gaGO.io.MicrosoftOrleansDemo
 {
     public class GrainWithData : Grain<GraindData>, IGrainWithData
     {

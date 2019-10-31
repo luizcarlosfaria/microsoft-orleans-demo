@@ -4,7 +4,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Orleans;
 
-namespace gaGO.io.BotPlatform
+namespace gaGO.io.MicrosoftOrleansDemo
 {
     public interface IGrainWithData : IGrainWithIntegerKey
     {

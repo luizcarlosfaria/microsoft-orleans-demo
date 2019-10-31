@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace gaGO.io.BotPlatform.State
+namespace gaGO.io.MicrosoftOrleansDemo.State
 {
     public class GraindData
     {

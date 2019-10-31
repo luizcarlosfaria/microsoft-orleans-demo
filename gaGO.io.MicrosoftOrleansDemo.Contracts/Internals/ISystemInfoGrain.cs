@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Orleans;
 using Orleans.Services;
 
-namespace gaGO.io.BotPlatform.Internals
+namespace gaGO.io.MicrosoftOrleansDemo.Internals
 {
     public interface ISystemInfoGrain: IGrainWithIntegerKey
     {

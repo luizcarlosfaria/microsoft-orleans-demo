@@ -6,7 +6,7 @@
     <ProjectGuid>426b401d-02bc-4d63-9454-4b19f6c0c80f</ProjectGuid>
   </PropertyGroup>
   <PropertyGroup>
-    <DockerServiceName>gago.io.botplatform.silo</DockerServiceName>
+    <DockerServiceName>gago.io.microsoftorleansdemo.silo</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.override.yml">

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace gaGO.io.BotPlatform.Internals
+namespace gaGO.io.MicrosoftOrleansDemo.Internals
 {
     public class SystemInfoGrain : Orleans.Grain, ISystemInfoGrain
     {

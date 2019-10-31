@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <RootNamespace>gaGO.io.BotPlatform</RootNamespace>
+    <RootNamespace>gaGO.io.MicrosoftOrleansDemo</RootNamespace>
   </PropertyGroup>
 
 

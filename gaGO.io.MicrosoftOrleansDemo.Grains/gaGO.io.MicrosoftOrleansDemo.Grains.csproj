@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <RootNamespace>gaGO.io.BotPlatform</RootNamespace>
+    <RootNamespace>gaGO.io.MicrosoftOrleansDemo</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\gaGO.io.BotPlatform.Contracts\gaGO.io.BotPlatform.Contracts.csproj" />
+    <ProjectReference Include="..\gaGO.io.MicrosoftOrleansDemo.Contracts\gaGO.io.MicrosoftOrleansDemo.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

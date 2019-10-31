@@ -4,19 +4,19 @@ using System.Linq;
 using System.Text;
 using Orleans.Configuration;
 
-namespace gaGO.io.BotPlatform
+namespace gaGO.io.MicrosoftOrleansDemo
 {
     public static class SharedConnect
     {
         private const string CONSUL_URI = "http://consul:8500";
-        private const string CONSUL_KvRootFolder = "gaGO.io.BotPlatform";
+        private const string CONSUL_KvRootFolder = "gaGO.io.MicrosoftOrleansDemo";
 
         private const int COLLECTION_AGE = 3;
         private const int COLLECTION_QUANTUM = 1;
         private const int DEACTIVATION_TIMEOUT = 3;
 
         private const string CLUSTER_ID = "production";
-        private const string SERVICE_ID = "gaGO.io.BotPlatform";
+        private const string SERVICE_ID = "gaGO.io.MicrosoftOrleansDemo";
 
         public static void ConfigureConsul(ConsulClusteringSiloOptions options)
         {

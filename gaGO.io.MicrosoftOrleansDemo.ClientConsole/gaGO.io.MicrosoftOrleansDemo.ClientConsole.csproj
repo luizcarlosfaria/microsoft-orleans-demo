@@ -16,8 +16,8 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\gaGO.io.BotPlatform.Connect\gaGO.io.BotPlatform.Connect.csproj" />
-    <ProjectReference Include="..\gaGO.io.BotPlatform.Contracts\gaGO.io.BotPlatform.Contracts.csproj" />
+    <ProjectReference Include="..\gaGO.io.MicrosoftOrleansDemo.Connect\gaGO.io.MicrosoftOrleansDemo.Connect.csproj" />
+    <ProjectReference Include="..\gaGO.io.MicrosoftOrleansDemo.Contracts\gaGO.io.MicrosoftOrleansDemo.Contracts.csproj" />
   </ItemGroup>
 
 </Project>
