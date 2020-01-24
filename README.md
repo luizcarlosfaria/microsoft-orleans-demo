@@ -48,4 +48,4 @@ Abra a solução ./gaGO.io.MicrosoftOrleansDemo.sln.
 
 Sete o projeto docker-compose como startup project.
 
-Pressione F5.
+Pressione F5!
