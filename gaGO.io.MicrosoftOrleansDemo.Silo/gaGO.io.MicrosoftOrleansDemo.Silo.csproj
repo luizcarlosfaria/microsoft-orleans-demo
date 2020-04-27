@@ -21,7 +21,7 @@
         <PackageReference Include="Microsoft.Orleans.OrleansConsulUtils" Version="$(OrleansPackageVersion)" />
         <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.5" />
         <PackageReference Include="Orleans.Providers.MongoDB" Version="3.0.0" />
-        <PackageReference Include="OrleansDashboard" Version="3.0.3" />
+        <PackageReference Include="OrleansDashboard" Version="3.1.0" />
         <PackageReference Include="System.Net.NetworkInformation" Version="4.3.0" />
     </ItemGroup>
 
