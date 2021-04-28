@@ -1,0 +1,28 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "08:00"
+    timezone: Etc/GMT-3
+  open-pull-requests-limit: 99
+  ignore:
+  - dependency-name: Microsoft.Orleans.Core
+    versions:
+    - 3.4.0
+  - dependency-name: Microsoft.Orleans.CodeGenerator.MSBuild
+    versions:
+    - 3.4.0
+  - dependency-name: Microsoft.Orleans.Core.Abstractions
+    versions:
+    - 3.4.0
+  - dependency-name: Microsoft.Orleans.OrleansConsulUtils
+    versions:
+    - 3.4.0
+  - dependency-name: Microsoft.Orleans.OrleansProviders
+    versions:
+    - 3.4.0
+  - dependency-name: Microsoft.Orleans.OrleansRuntime
+    versions:
+    - 3.4.0
